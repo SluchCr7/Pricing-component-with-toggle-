@@ -165,3 +165,13 @@ li{
     color: var(--white) !important;
     border-color: var(--white) !important;
 }
+@media screen and (max-width: 768px) {
+    .program{
+        height: 240vh;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .program{
+        height: 160vh;
+    }
+}
