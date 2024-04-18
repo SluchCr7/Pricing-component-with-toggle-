@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Pricing component with toggle (Sluch)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="Images/app-development.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="program">
+    <div class="image_top">
+      <img src="/images/bg-top.svg" alt="">
+    </div>
+    <div class="image_bottom">
+      <img src="/images/bg-bottom.svg" alt="">
+    </div>
+    <span class="title_program">Our Pricing</span>
+    <div class="switcher">
+      <span id="text_monthly">Monthly</span>
+      <div class="switch" id="switch"><div class="circle left" id="circle"></div></div>
+      <span id="text_yearly">Yearly</span>
+    </div>
+    <div class="cards grid grid-cols-3 gap-5">
+      <div class="card">
+        <span class="title">Basic</span>
+        <span class="price">$19.99</span>
+        <ul>
+          <li>500 GB Storage</li>
+          <li>2 Users Allowed</li>
+          <li>Send up to 3 GB</li>
+        </ul>
+        <button>Learn More</button>
+      </div>
+      <div class="card active">
+        <span class="title activetext">Professional</span>
+        <span class="price activetext">$24.99</span>
+        <ul class="list">
+          <li class="activetext">1 TB Storage</li>
+          <li class="activetext">5 Users Allowed</li>
+          <li class="activetext">Send up to 10 GB</li>
+        </ul>
+        <button class="activetext">Learn More</button>
+      </div>
+      <div class="card">
+        <span class="title">Master</span>
+        <span class="price">$39.99</span>
+        <ul>
+          <li>2 TB Storage</li>
+          <li>10 Users Allowed</li>
+          <li>Send up to 20 GB</li>
+        </ul>
+        <button>Learn More</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="index.js"></script>
+</body>
+</html>
